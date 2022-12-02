@@ -1,0 +1,1 @@
+with open('02.in')as f:print(*[sum(x)for x in zip(*[{"AX":(4,3),"AY":(8,4),"AZ":(3,8),"BX":(1,1),"BY":(5,5),"BZ":(9,9),"CX":(7,2),"CY":(2,6),"CZ":(6,7)}["".join(x.split())]for x in f.readlines()])])
